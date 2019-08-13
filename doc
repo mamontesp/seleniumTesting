@@ -1,0 +1,33 @@
+Siguiendo con el proceso de selección el siguiente paso consiste en que realices este ejercicio técnico;  Puedes enviarme la solución en un archivo Zip o subirla a un repositorio de código tipo Github y enviarme el Link. (Te recomiendo que lo envíes por GitHub). 
+
+Estos son los skills que tendremos en cuenta:
+
+    Automation tools like Selenium
+    Robot framework or Python
+    Agile approaches
+    web services
+    Knowledge of automation
+
+Cuéntame cuando puedes enviarme la solución del ejercicio para poder seguir con el proceso.
+
+Cualquier duda que tengas, no dudes en contactarnos. 
+Quedo pendiente.
+
+Saludos!
+
+}
+
+To init jenkins
+/usr/java/jre1.8.0_221/bin/java -jar jenkins.war --httpPort=8080
+
+username: mamontes
+password: 12345678
+
+Java to run selenium
+
+/usr/lib/jvm/java-8-openjdk-amd64
+
+
+
+
+
