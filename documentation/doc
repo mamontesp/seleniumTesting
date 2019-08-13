@@ -31,3 +31,6 @@ import junit.runner.Version;
 System.out.println("JUnit version is: " + Version.id())
 
 
+-Dtest=CustomTestEbay
+-Dwebdriver.firefox.driver=/media/andreamontes/DATA/Personal/AplicacionBelatrix/drivers/geckodriver
+
