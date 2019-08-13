@@ -24,4 +24,10 @@ username: mamontes
 password: 12345678
 
 
+Junit version
+
+import junit.runner.Version;
+
+System.out.println("JUnit version is: " + Version.id())
+
 
