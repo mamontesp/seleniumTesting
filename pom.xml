@@ -4,6 +4,27 @@
   <artifactId>ebayTesting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>buildEbayTesting</name>
+  <properties>
+  	<maven.compiler.source>1.6</maven.compiler.source>
+  	<maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  
+  <build>
+  	<sourceDirectory>src</sourceDirectory>
+  	<testSourceDirectory>test</testSourceDirectory>
+  	<plugins>
+  		<!-- Compiler plug-in -->
+  		<plugin>
+	  		<groupId>org.apache.maven.plugings</groupId>
+	  		<artifactId>maven-compiler-pluging</artifactId>
+	  		<version>3.8.1</version>
+	  		<configuration>
+	  			<source>1.8</source>
+	  			<target>1.8</target>
+	  		</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
   <dependencies>
   	<dependency>
   	<groupId>junit</groupId>
@@ -16,18 +37,4 @@
   	<version>3.141.59</version>
   	</dependency>
   </dependencies>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>

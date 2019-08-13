@@ -34,3 +34,8 @@ System.out.println("JUnit version is: " + Version.id())
 -Dtest=CustomTestEbay
 -Dwebdriver.firefox.driver=/media/andreamontes/DATA/Personal/AplicacionBelatrix/drivers/geckodriver
 
+Jenkins setup
+https://oncomputingwell.princeton.edu/2018/01/triggering-a-jenkins-build-every-time-changes-are-pushed-to-a-git-branch-on-github/
+
+
+

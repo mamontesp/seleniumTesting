@@ -27,6 +27,12 @@ Java to run selenium
 
 /usr/lib/jvm/java-8-openjdk-amd64
 
+The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+To modify route of firefox web driver
+
+-Dwebdriver.gecko.driver=""
+
 
 
 
